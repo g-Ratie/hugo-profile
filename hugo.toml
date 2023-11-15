@@ -1,7 +1,7 @@
-baseURL = 'https://g-ratie.github.io/profile/'
+baseURL = 'https://g-ratie.github.io/hugo-profile/'
 publishDir = "docs"
 languageCode = 'ja-jp'
-title = 'My New Hugo Site'
+title = 'Profile'
 theme = "PaperMod"
 [params.profileMode]
 enabled = true
