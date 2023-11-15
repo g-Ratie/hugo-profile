@@ -1,0 +1,21 @@
+baseURL = 'https://g-ratie.github.io/profile/'
+publishDir = "docs"
+languageCode = 'ja-jp'
+title = 'My New Hugo Site'
+theme = "PaperMod"
+[params.profileMode]
+enabled = true
+title = "I'm Ratie 👋"
+subtitle = '作ったものとかやったこととか'
+imageUrl = 'https://github.com/g-ratie.png'
+buttons = [
+    { name = 'archive', url = '/archive' },
+    { name = 'works', url = '/works' },
+    { name = 'about', url = '/about' }
+]
+
+[params]
+socialIcons = [
+    { name = 'twitter', url = 'https://twitter.com/ratie_iniad' },
+    { name = 'github', url = 'https://github.com/g-Ratie'}
+]
