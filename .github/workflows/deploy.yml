@@ -23,6 +23,12 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
+      - name: Setup tcardgen
+        run: go install github.com/qawatake/tcardgen@latest
+
+      - name: Generate OGP images
+        run: tcardgen -f static/font/kinto -o static/ogp/ -t static/ogp/template/template.png content/**/*.md
+
       - name: Build
         run: hugo --minify
 
