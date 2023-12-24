@@ -5,8 +5,8 @@ title = 'Profile'
 theme = "PaperMod"
 [params.profileMode]
 enabled = true
-title = "I'm Ratie 👋"
-subtitle = '作ったものとかやったこととか'
+title = "I'm Ratie "
+subtitle = '作ったもの・やったこととか'
 imageUrl = 'https://github.com/g-ratie.png'
 buttons = [
     { name = 'archive', url = '/archive' },
