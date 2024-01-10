@@ -24,10 +24,10 @@ jobs:
           # extended: true
 
       - name: Setup tcardgen
-        run: go install github.com/qawatake/tcardgen@latest
+        run: go install github.com/Ladicle/tcardgen@latest
 
       - name: Generate OGP images
-        run: tcardgen -f static/font/kinto -o static/ogp/ -t static/ogp/template/template.png content/**/*.md
+        run: tcardgen -f static/font/kinto -o static/ogp/ -t static/ogp/template/OGP.png -c static/ogp/template/OGP.config.yaml content/**/*.md
 
       - name: Build
         run: hugo --minify
