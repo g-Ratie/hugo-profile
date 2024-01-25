@@ -26,6 +26,9 @@ jobs:
       - name: Setup tcardgen
         run: go install github.com/Ladicle/tcardgen@latest
 
+      - name: path
+        run: export PATH="$(go env GOPATH)/bin:$PATH"
+
       - name: Generate OGP images
         run: tcardgen -f static/font/kinto -o static/images/ogp/ -t static/ogp/template/OGP.png -c static/ogp/template/OGP.config.yaml content/**/*.md
 
