@@ -1,0 +1,33 @@
+template: example/template3.png
+title:
+  start:
+    px: 130
+    py: 200
+  fontSize: 68
+  fontStyle: Bold
+  maxWidth: 946
+  lineSpacing: 10
+
+info:
+  start:
+    px: 240
+    py: 470
+  fontSize: 35
+  fontStyle: Regular
+  separator: " - "
+
+tags:
+  start:
+    px: 950
+    py: 470
+  fgHexColor: "#FFFFFF"
+  bgHexColor: "#7F7776"
+  fontSize: 35
+  fontStyle: Medium
+  boxAlign: Left
+  boxSpacing: 6
+  boxPadding:
+    top: 6
+    right: 10
+    bottom: 6
+    left: 8
