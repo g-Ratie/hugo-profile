@@ -1,4 +1,3 @@
-baseURL = 'https://g-ratie.github.io/hugo-profile/'
 publishDir = "docs"
 languageCode = 'ja-jp'
 title = 'Profile'
@@ -9,7 +8,7 @@ title = "I'm Ratie "
 subtitle = '作ったもの・やったこととか'
 imageUrl = 'https://github.com/g-ratie.png'
 buttons = [
-    { name = 'archive', url = '/archive' },
+    { name = 'blog', url = '/tags/blog' },
     { name = 'works', url = '/works' },
     { name = 'about', url = '/about' }
 ]
