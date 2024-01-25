@@ -14,5 +14,3 @@ hugo.linux
 
 .DS_Store
 
-# ignore ogp image files
-/static/images/ogp/*
