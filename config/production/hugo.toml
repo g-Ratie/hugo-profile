@@ -1,3 +1,4 @@
+baseURL = 'https://g-ratie.github.io/hugo-profile/'
 publishDir = "docs"
 languageCode = 'ja-jp'
 title = 'Profile'
