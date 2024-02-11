@@ -1,12 +1,12 @@
 ---
 title: 2023年に触った技術の振り返り
-date: 2024-01-18T14:36:51+09:00
+date: 2024-01-12T14:36:51+09:00
 draft: True
 author: ["ラティ"]
 categories: ["雑記"]
 tags: ["blog"]
-eyecatch: "/static/ogp/{{ .Name }}.png"
-ogimage: "/images/ogp/{{ .Name }}.png"
+eyecatch: "/static/images/{{ .Name }}.png"
+ogimage: "/static/images/{{ .Name }}.png"
 
 ---
 ## 概要
@@ -15,7 +15,7 @@ ogimage: "/images/ogp/{{ .Name }}.png"
 また、プライベートで使用しているツールに対して、コントリビュートを行うことで、ほんの僅かながらOSSへの貢献を行うことができました！！！
 
 ## 触った技術の一覧
-###　言語
+### 言語
 - TypeScript
   - 2023 年の2/3くらいは TypeScript で書いていた気がします
   - 触れば触るほどいいなと思うことが多く、今後も使っていきたい言語です
@@ -24,9 +24,7 @@ ogimage: "/images/ogp/{{ .Name }}.png"
   - TypeScriptをそれなりに勉強して初めて、Pythonがどれだけ楽な言語なのかを実感できました
     - ~~世間からあれこれ言われている理由も分かった気がします~~
 
-### フレームワーク・ツール
-
-2023年から触れたもの 
+### フレームワーク・ツール 
 
 Web周り
 - Next.js/React
