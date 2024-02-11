@@ -8,9 +8,9 @@ title = "I'm Ratie "
 subtitle = '作ったもの・やったこととか(準備中)'
 imageUrl = 'https://github.com/g-ratie.png'
 buttons = [
-    { name = 'blog', url = '/blog' },
-    { name = 'works', url = '/works' },
-    { name = 'about', url = '/about' }
+    { name = 'blog', url = 'blog' },
+    { name = 'works', url = 'works' },
+    { name = 'about', url = 'about' }
 ]
 
 [params]
