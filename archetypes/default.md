@@ -5,6 +5,6 @@ draft : true
 author: ["ratie"]
 categories: [""]
 tags: [""]
-eyecatch: "/static/ogp/{{ .Name }}.png"
-ogimage: "/images/ogp/{{ .Name }}.png"
+eyecatch: "/static/images/{{ .Name }}.png"
+ogimage: "/static/images/{{ .Name }}.png"
 ---
