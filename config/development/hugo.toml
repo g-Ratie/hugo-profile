@@ -5,7 +5,7 @@ theme = "PaperMod"
 [params.profileMode]
 enabled = true
 title = "I'm Ratie "
-subtitle = '作ったもの・やったこととか'
+subtitle = '作ったもの・やったこととか(準備中)'
 imageUrl = 'https://github.com/g-ratie.png'
 buttons = [
     { name = 'blog', url = '/tags/blog' },

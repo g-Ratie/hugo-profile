@@ -7,4 +7,5 @@ categories: [""]
 tags: [""]
 eyecatch: "/static/images/{{ .Name }}.png"
 ogimage: "/static/images/{{ .Name }}.png"
+ShowPostNavLinks: true
 ---
