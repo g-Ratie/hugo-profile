@@ -3,7 +3,6 @@ publishDir = "docs"
 languageCode = 'ja-jp'
 title = 'Profile'
 theme = "PaperMod"
-canonifyURLs = true
 [params.profileMode]
 enabled = true
 title = "I'm Ratie "
