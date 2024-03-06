@@ -6,7 +6,7 @@ categories: ["雑記"]
 tags: ["blog"]
 description: "今更ながら2023年に触った技術の振り返りをする"
 cover:
-  image: "images/lookback2023tech.png"
+  image: "images/ogp/lookback2023tech.png"
   alt: "2023年に触った技術の振り返り"
 
 ShowPostNavLinks: true
