@@ -3,6 +3,7 @@ publishDir = "docs"
 languageCode = 'ja-jp'
 title = 'Profile'
 theme = "PaperMod"
+canonifyURLs = true
 [params.profileMode]
 enabled = true
 title = "I'm Ratie "
@@ -17,5 +18,5 @@ buttons = [
 [params]
 socialIcons = [
     { name = 'twitter', url = 'https://twitter.com/ratie_iniad' },
-    { name = 'github', url = 'https://github.com/g-Ratie'}
+    { name = 'github', url = 'https://github.com/g-Ratie' },
 ]
