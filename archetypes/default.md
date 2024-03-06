@@ -5,7 +5,8 @@ draft : true
 author: ["ratie"]
 categories: [""]
 tags: [""]
-eyecatch: "/static/images/{{ .Name }}.png"
-ogimage: "/static/images/{{ .Name }}.png"
+cover:
+  image: "images/ogp/hoge.png"
+
 ShowPostNavLinks: true
 ---
