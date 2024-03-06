@@ -8,7 +8,6 @@ description: "今更ながら2023年に触った技術の振り返りをする"
 cover:
   image: "images/lookback2023tech.png"
   alt: "2023年に触った技術の振り返り"
-  relative: false
 
 ShowPostNavLinks: true
 
